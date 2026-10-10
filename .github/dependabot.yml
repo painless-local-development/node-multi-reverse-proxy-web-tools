@@ -1,0 +1,20 @@
+# Generado automáticamente: una PR por dependencia (sin agrupar).
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "docker-compose"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+  - package-ecosystem: "npm"
+    directories:
+      - "/back"
+      - "/front"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
